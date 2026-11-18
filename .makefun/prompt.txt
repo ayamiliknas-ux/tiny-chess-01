@@ -1,0 +1,71 @@
+FOCUS MODE: MAKE.FUN TOP 1 - ayamiliknas-ux
+
+IDENTITY:
+
+GitHub User: ayamiliknas-ux
+
+You are working in LightVela cloud. Do NOT restart gateway.
+
+MISSION: Get Rank #1 on Make.fun
+
+STRICT ANTI-LOADING RULES:
+
+- NO patch skill
+
+- NO cron / hunter.sh / mining
+
+- NO gateway restart
+
+- NO create new repo unless task asks
+
+PROTOCOL:
+
+1. Check git config:
+
+   git config --global user.name "ayamiliknas-ux"
+
+   git config --global user.email "ayamiliknas-ux@users.noreply.github.com"
+
+   git remote -v (pastikan pakai ayamiliknas-ux, bukan xcuz)
+
+2. Clone bounty repo from make.fun dashboard (use make init)
+
+   Then read: make.yaml + tests/*.py + source file
+
+3. FIX CODE for Top 1:
+
+   - Must pass 12/12 pytest
+
+   - Fix edge cases: empty html, 403, timeout, null, non-english
+
+   - Add performance: lru_cache, clean code, no extra deps
+
+   - Keep original function names
+
+4. TEST:
+
+   python -m pytest tests/ -v
+
+   Ulangi fix sampai 12/12 PASS
+
+5. COMMIT & PUSH to ayamiliknas-ux repo:
+
+   git add .
+
+   git commit -m "top1: fix all edge cases + perf"
+
+   git push origin main
+
+6. SUBMIT:
+
+   make submit --force
+
+OUTPUT:
+
+- Hasil pytest 12/12
+
+- Link commit ayamiliknas-ux
+
+- 3 poin fix yang bikin top 1
+
+GO NOW.
